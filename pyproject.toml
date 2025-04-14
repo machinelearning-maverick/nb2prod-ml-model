@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nb2prod-ml-model"
+version = "0.1.0"
+description = "ML model package for nb2prod project"
+authors = [
+  { name = "Your Name", email = "you@example.com" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+dependencies = [
+  "numpy",
+  "scikit-learn"
+]
+
+[project.urls]
+"Source" = "https://github.com/yourname/nb2prod-ml-model"
